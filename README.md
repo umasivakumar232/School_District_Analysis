@@ -108,4 +108,17 @@ Here we'll group the scores by the type of school: district or charter. For each
 
 <img width="428" alt="Original_school_type_scores" src="https://user-images.githubusercontent.com/85518330/125210980-8aea0200-e268-11eb-9d77-5fe7e9836a46.png">
 
-## Summary of Findings 
+
+## Summary of Findings
+
+The data provided gives us details of the math and reading scores of 39170 students in grades 9th-12th studying across 15 schools.
+
+  * At a district level overall passing % of both math and reading is 65%, math has a lower passing % compared to reading 
+  * Cabrera, Thomas, Griffin, Wilson and Pena High School are the top 5 performing schools based on overall % passing
+  * Rodriguez, Figueroa, Huang, Hernandez, Johnson High School are the bottom 5 performing schools based on overall % passing 
+  * Grade wise performance of top 5 schools indicates that math scores are generally lower than reading scores but the scores remain consistent across grades
+  * Ironically schools where per student spending is higher have performed more poorly. This means that, increasing the per student budget has little impact on performance 
+  * Smaller and medium sized schools are performing much better than larger schools. Perhaps that is because the schools are able to focus more on their students 
+  * Charter schools are performing much better than district schools
+
+ 
