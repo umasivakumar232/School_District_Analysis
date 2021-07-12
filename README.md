@@ -82,10 +82,15 @@ We get this by sorting the per_school_summary_df DataFrame on the % Overall Pass
 Here we create two new DataFrames, one that will display the average math scores for each grade, and the one that will display the average reading scores for each grade. These will be grouped by the name of the school.
 
    * Gradewise Math Scores
-<img width="173" alt="Original_gradewise_math_scores" src="https://user-images.githubusercontent.com/85518330/125210906-35adf080-e268-11eb-9535-b0c965ffec02.png">
 
-  * Gradewise Reading Scores
-<img width="175" alt="Original_gadewise_reading_scores" src="https://user-images.githubusercontent.com/85518330/125210882-14e59b00-e268-11eb-95af-e18c9ee96376.png">
+<img width="266" alt="Original_gradewise_math_scores" src="https://user-images.githubusercontent.com/85518330/125225098-483e1f00-e294-11eb-9d61-4806d8f8f2a2.png">
+
+
+
+   * Gradewise Reading Scores
+
+<img width="219" alt="Original_gradewise_reading_scores" src="https://user-images.githubusercontent.com/85518330/125224863-f2697700-e293-11eb-97f5-c8560090d94a.png">
+
 
 
 ### Spending Bins Summary
@@ -134,7 +139,8 @@ The below are the results of our re-analysis
 
 ### Per School Summary
 
-<img width="380" alt="Challenge_school_summary" src="https://user-images.githubusercontent.com/85518330/125214852-e626ef00-e27e-11eb-8043-a353828eac8e.png">
+<img width="498" alt="Challenge_Per_School_Summary" src="https://user-images.githubusercontent.com/85518330/125223969-41aea800-e292-11eb-97c4-ab7697d243a2.png">
+
 
 ### Highest Performing Schools
 
@@ -150,11 +156,12 @@ The below are the results of our re-analysis
 
   * Gradewise Math Scores
 
-<img width="172" alt="Challenge_gradewise_math_scores" src="https://user-images.githubusercontent.com/85518330/125214442-cdb5d500-e27c-11eb-9b22-491d9fd43449.png">
+<img width="228" alt="Challenge_gradewise_math" src="https://user-images.githubusercontent.com/85518330/125225226-8d625100-e294-11eb-845f-db7e97456ff4.png">
 
   * Gradewise Reading Scores
 
-<img width="176" alt="Challenge_gradewise_reading_scores" src="https://user-images.githubusercontent.com/85518330/125214445-d27a8900-e27c-11eb-92f2-2f11ac9785c2.png">
+<img width="226" alt="Challenge_gradewise_reading" src="https://user-images.githubusercontent.com/85518330/125225248-94895f00-e294-11eb-8e5c-4e00ae5641af.png">
+
 
 ### Spending Bins Summary
 
