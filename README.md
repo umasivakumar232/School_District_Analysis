@@ -102,7 +102,6 @@ Here we create two new DataFrames, one that will display the average math scores
 <img width="219" alt="Original_gradewise_reading_scores" src="https://user-images.githubusercontent.com/85518330/125224863-f2697700-e293-11eb-97f5-c8560090d94a.png">
 
 
-
 ### Spending Bins Summary
 
 To create this DataFrame, we need to do the following: Group the schools into four bins, or ranges, based on the budget per student. For each spending range, get the following data: Average math and reading scores The percentage of students passing math and reading The overall passing percentage, which is the average of the percentage of students passing math and reading
@@ -123,7 +122,6 @@ Here we'll group the scores by the type of school: district or charter. For each
 
 <img width="428" alt="Original_school_type_scores" src="https://user-images.githubusercontent.com/85518330/125210980-8aea0200-e268-11eb-9d77-5fe7e9836a46.png">
 
-
 ## Summary of Findings
 
 The data provided gives us details of the math and reading scores of 39170 students in grades 9th-12th studying across 15 schools.
@@ -131,8 +129,9 @@ The data provided gives us details of the math and reading scores of 39170 stude
   * At a district level overall passing % of both math and reading is 65%, math has a lower passing % compared to reading 
   * Cabrera, Thomas, Griffin, Wilson and Pena High School are the top 5 performing schools based on overall % passing
   * Rodriguez, Figueroa, Huang, Hernandez, Johnson High School are the bottom 5 performing schools based on overall % passing 
+  * All the schools in the top 5 are charter schools, all the schools in the bottom 5 are district schools
   * Grade wise performance of top 5 schools indicates that math scores are generally lower than reading scores but the scores remain consistent across grades
-  * Ironically schools where per student spending is higher have performed more poorly. This means that, increasing the per student budget has little impact on performance 
+  * Ironically schools where per student spending is higher have performed poorly. Indicating that increasing the per student budget has little impact on performance 
   * Smaller and medium sized schools are performing much better than larger schools. Perhaps that is because the schools are able to focus more on their students 
   * Charter schools are performing much better than district schools
 
@@ -146,11 +145,9 @@ The below are the results of our re-analysis
 
 <img width="541" alt="Challenge_district_summary" src="https://user-images.githubusercontent.com/85518330/125214963-60f00a00-e27f-11eb-818e-d8bd6dab46d6.png">
 
-
 ### Per School Summary
 
 <img width="498" alt="Challenge_Per_School_Summary" src="https://user-images.githubusercontent.com/85518330/125223969-41aea800-e292-11eb-97c4-ab7697d243a2.png">
-
 
 ### Highest Performing Schools
 
@@ -199,5 +196,14 @@ Changing the score of nineth graders in Thomas High School to NaNs and redoing t
       *  The % passing math dropped from 93.27% to 66.91%,
       *  The % passing reading dropped from 97.30% to 69.66%  
       *  Overall passing % dropped from 90.94% to 65.07%
+ 
+ * Since our top schools was calculated based on Overall passing % ,Thomas High School should drop from top 5 to bottom 5
+ * However for our analysis we have replaced the % math scores, % reading scores and % overall scores in our per_school_summary_df with Thomas High 10-12th scores for most of  our analysis hence the impact here is negligible 
+ 
+ * The gradewise math and reading score DataFrames were affected as 9th grade did not have an scores to show
+
+ * The impact on other DataFrames like the spending bins summary, school size summary and school type summary were negligible
+
+ 
  
 
