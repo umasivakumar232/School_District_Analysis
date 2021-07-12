@@ -7,11 +7,23 @@ Here we are tasked with helping Maria the chief data scientist for a city school
 * school_complete.csv - school ID, school_name, school_type, size, budget 
 * student_complete.csv -   student ID, name, gender, grade, school_name, reading_score and math_score
 
-## Resources
-
+## Development Environment, Dependencies & Resources 
+ 
+ ### Development Environment
+ 
    * Anaconda – versions 4.10.3
    * Jupyter Notebook – version 6.10.0
    * Python – version 3.8.8
+
+### Dependencies
+  
+  * Python Pandas library
+  * Python Numpy library
+
+### Resources
+
+  * schools_complete.csv
+  * students_complete.csv
 
 ## Initial Analysis
 
@@ -84,8 +96,6 @@ Here we create two new DataFrames, one that will display the average math scores
    * Gradewise Math Scores
 
 <img width="266" alt="Original_gradewise_math_scores" src="https://user-images.githubusercontent.com/85518330/125225098-483e1f00-e294-11eb-9d61-4806d8f8f2a2.png">
-
-
 
    * Gradewise Reading Scores
 
@@ -175,4 +185,19 @@ The below are the results of our re-analysis
 
 <img width="422" alt="Challenge_school_type_scores" src="https://user-images.githubusercontent.com/85518330/125214459-e7571c80-e27c-11eb-9625-5b83bdaac7dc.png">
 
+
+## Comparing Results 
+
+Changing the score of nineth graders in Thomas High School to NaNs and redoing the exercise affected the following analysis
+
+ * The total number of students in the dataset dropped from 39170 to 38709
+
+ * There was a negligible impact of NaNs on the overall school district summary
+ 
+ * NaNs affected the results of Thomas High School scores in the Per School Summary 
+ 
+      *  The % passing math dropped from 93.27% to 66.91%,
+      *  The % passing reading dropped from 97.30% to 69.66%  
+      *  Overall passing % dropped from 90.94% to 65.07%
+ 
 
