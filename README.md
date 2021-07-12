@@ -49,7 +49,7 @@ We create a new DataFrame called school_district_df with all the above. We forma
 
 <img width="691" alt="Original_district_summary" src="https://user-images.githubusercontent.com/85518330/125210695-0b0f6800-e267-11eb-9211-24496c8640c7.png">
 
-### School Summary
+### Per School Summary
 
 Next we create a DataFrame called school_summary_df using key metrics below for each school.   
     
@@ -121,4 +121,51 @@ The data provided gives us details of the math and reading scores of 39170 stude
   * Smaller and medium sized schools are performing much better than larger schools. Perhaps that is because the schools are able to focus more on their students 
   * Charter schools are performing much better than district schools
 
- 
+## Redoing the Analysis
+
+Post submitting our findings to Maria, we are told that there is evidence of academic dishonesty, specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. We have been requested to repeat our complete analysis by replacing the Thomas High School nineth grade results with Nans.
+
+The below are the results of our re-analysis
+
+### School District Summary
+
+<img width="541" alt="Challenge_district_summary" src="https://user-images.githubusercontent.com/85518330/125214963-60f00a00-e27f-11eb-818e-d8bd6dab46d6.png">
+
+
+### Per School Summary
+
+<img width="380" alt="Challenge_school_summary" src="https://user-images.githubusercontent.com/85518330/125214852-e626ef00-e27e-11eb-8043-a353828eac8e.png">
+
+### Highest Performing Schools
+
+  * Top 5 Schools
+
+<img width="563" alt="Challenge_top_5_schools" src="https://user-images.githubusercontent.com/85518330/125214421-aeb74300-e27c-11eb-9334-335264f5708f.png">
+
+  * Bottom 5 Schools
+
+<img width="582" alt="Challenge_bottom_5_schools" src="https://user-images.githubusercontent.com/85518330/125214428-b676e780-e27c-11eb-83c2-6f2958ea5a92.png">
+
+### Grade Level Summary
+
+  * Gradewise Math Scores
+
+<img width="172" alt="Challenge_gradewise_math_scores" src="https://user-images.githubusercontent.com/85518330/125214442-cdb5d500-e27c-11eb-9b22-491d9fd43449.png">
+
+  * Gradewise Reading Scores
+
+<img width="176" alt="Challenge_gradewise_reading_scores" src="https://user-images.githubusercontent.com/85518330/125214445-d27a8900-e27c-11eb-92f2-2f11ac9785c2.png">
+
+### Spending Bins Summary
+
+<img width="491" alt="Challenge_spending_bin_scores" src="https://user-images.githubusercontent.com/85518330/125214451-da3a2d80-e27c-11eb-8e3f-ef0cbd2fd610.png">
+
+### School Size Summary
+
+<img width="439" alt="Original_school_size_scores" src="https://user-images.githubusercontent.com/85518330/125210965-802f6d00-e268-11eb-8d85-05217edeab76.png">
+
+### School Type Summary
+
+<img width="422" alt="Challenge_school_type_scores" src="https://user-images.githubusercontent.com/85518330/125214459-e7571c80-e27c-11eb-9625-5b83bdaac7dc.png">
+
+
